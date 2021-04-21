@@ -1,0 +1,124 @@
+/*GENERAL*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+}
+
+
+
+/*UTILITY*/
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #8C8E8F;
+}
+
+a:hover {
+    color: #191C1F;
+}
+
+
+
+/*HEADER*/
+.main-header {
+    padding-top: 35px;
+    height: 60px;
+    width: 100%;
+    position:fixed;
+    background-color: #fff;
+}
+
+.header-wrapper {
+    width: 1150px;
+    margin:0 auto;
+}
+
+.main-header ul li svg {
+    vertical-align: middle;
+    margin-right: 55px;
+}
+
+.main-header li {
+    margin-right: 30px;
+}
+
+.main-header li:last-child {
+    margin-left: 0;
+}
+
+.main-header nav .black {
+    color: #191C1F;
+    font-weight: bold;
+ }
+
+
+
+/*Dropdown Menu*/ 
+.with-dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    display: none; /*JQuery*/
+    position: absolute;
+    top: 185%;
+    left: -20px;
+    min-width: 190px;
+    padding: 30px 20px 0;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 1px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.dropdown-menu li {
+    display: block;
+    margin-bottom: 30px;
+}
+
+
+/*Buttons*/
+.btn {
+    padding: 13px 20px;
+    border-radius: 10px;
+}
+
+.btn.app {
+    background-color: #191C1F;
+}
+
+.btn.app:hover {
+    background-color: rgba(25, 28, 31, 0.8);
+}
+
+.btn.app a {
+    color: #fff;
+}
+
+.btn.sign-in {
+    background-color: #F0F0F0;
+}
+
+.btn.sign-in:hover {
+    background-color: rgba(240, 240, 240, 0.8);
+}
+
+.btn.sign-in a {
+    color: #191C1F;
+}
